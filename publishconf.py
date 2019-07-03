@@ -11,6 +11,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
+
 # If your site is available via HTTPS, make sure SITEURL begins with https://
 SITEURL = 'https://rahuja.dev'
 RELATIVE_URLS = False
@@ -26,6 +27,5 @@ M_CSS_FILES = (
 )
 
 
-# Following items are often useful when publishing
-# DISQUS_SITENAME = ""
-# GOOGLE_ANALYTICS = ""
+GOOGLE_ANALYTICS_UNIVERSAL = 'UA-142490565-1'
+GOOGLE_ANALYTICS_PROPERTY = 'rahuja.dev'
